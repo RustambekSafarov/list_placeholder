@@ -5,5 +5,18 @@ Argument int n
 Return the List
 
 */
+List func(int n){
+    int i = n;
+    int y = 0;
+    List x = [];
+    while(i>0){
+    x.add(i*i);
+    i-= 1;
 
-void main() {}
+    }
+    return x;
+}
+
+void main() {
+    print(func(4));
+}
