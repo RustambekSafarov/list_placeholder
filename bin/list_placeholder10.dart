@@ -18,8 +18,6 @@ List func(int M,int N){
             
             x.add(z);
             
-            
-            
         }else {
             x.add(i);
         }
