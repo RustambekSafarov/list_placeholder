@@ -5,11 +5,11 @@ Argument int n
 Return the List
 */
 
-List func(int M,int N){
-    int i = M;
+List func(int n){
+    int i = 0;
     int y = 0;
     List x = [];
-    while(N>i){
+    while(n>i){
         if(i%2==0){
             x.add(i);
 
@@ -21,5 +21,5 @@ List func(int M,int N){
 }
 
 void main() {
-    print(func(4,11));
+    print(func(4));
 }
