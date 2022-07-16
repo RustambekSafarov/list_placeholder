@@ -14,7 +14,7 @@ List func(int n){
     while(n>i){
         if(i%2==0){
             
-            z = '''"'''+i.toString()+'''"''';
+            z = i.toString();
             
             x.add(z);
             
