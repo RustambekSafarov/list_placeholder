@@ -6,12 +6,12 @@ Return the List
 
 */
 
-List func(int M,int N){
-    int i = M;
+List func(int n){
+    int i = 0;
     int y = 0;
     List x = [];
     String z = '';
-    while(N>i){
+    while(n>i){
         if(i%2==0){
             
             z = '''"'''+i.toString()+'''"''';
