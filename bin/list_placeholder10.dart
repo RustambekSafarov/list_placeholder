@@ -30,5 +30,5 @@ List func(int n){
 }
 
 void main() {
-    print(func(4,11));
+    print(func(4));
 }
