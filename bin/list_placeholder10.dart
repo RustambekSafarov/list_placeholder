@@ -13,8 +13,8 @@ List func(int M,int N){
     String z = '';
     while(N>i){
         if(i%2==0){
-            z+="'";
-            z = "'"+i.toString()+"'";
+            
+            z = '''"'''+i.toString()+'''"''';
             
             x.add(z);
             
