@@ -14,7 +14,7 @@ List func(int M,int N){
             x.add(i);
 
         }
-        i++; 
+        i++;  
 
     }
     return x;
